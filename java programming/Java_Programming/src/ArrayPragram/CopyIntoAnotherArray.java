@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CopyIntoAnotherArray {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
-		System.out.println("enter the size of an array");
+		System.out.println("Enter the size of an array.");
 		int size=s.nextInt();
 		int []arr1=new int[size];
 		int []copy=new int[arr1.length];
@@ -27,3 +27,4 @@ public class CopyIntoAnotherArray {
 	}
 
 }
+
