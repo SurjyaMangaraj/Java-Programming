@@ -10,6 +10,7 @@ public class ArrayOperation {
 	 for(int i=0;i<arr.length;i++) {
 		 arr[i]=s.nextInt();
 	 }
+	 System.out.println("Thanks for using this Array ");
 	 return arr ;
  }
  public void displayarray(int []arr) {
@@ -19,3 +20,4 @@ public class ArrayOperation {
 	 } 
 }
  }
+
