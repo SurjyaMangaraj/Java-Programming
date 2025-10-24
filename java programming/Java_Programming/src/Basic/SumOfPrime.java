@@ -9,8 +9,10 @@ public class SumOfPrime {
         int n = sc.nextInt();
         int sum=0;
     for(int i=2;i<=n;i++){
-        if(isPrime(i))
-            sum=sum+i;
+        if(isPrime(i)) {
+            System.out.print(i);
+            sum = sum + i;
+        }
     }
         System.out.println("The total sum of all Prime Number is "+sum);
     }
