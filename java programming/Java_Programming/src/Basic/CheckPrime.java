@@ -15,6 +15,6 @@ public class CheckPrime {
             break;
 
         }
-            System.out.println("Prime Number.");
+            System.out.println("Prime Number are ");
     }
 }
