@@ -10,9 +10,9 @@ public class Practice {
 		int d=Count(n);
 		boolean res=Isamstrong(n,d);
 		if(res)
-			System.out.println("amstrong number");
+			System.out.println("Amstrong Number");
 		else
-		System.out.println("not amstrong number");
+		System.out.println("Not Amstrong Number");
 	
    
 }
@@ -45,5 +45,6 @@ public class Practice {
 	
 	}
 	
+
 
 
