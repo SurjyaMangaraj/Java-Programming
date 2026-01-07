@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SumOfPrime {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a Number.");
+        System.out.println("Enter a valid Number.");
         int n = sc.nextInt();
         int sum=0;
     for(int i=2;i<=n;i++){
@@ -14,7 +14,7 @@ public class SumOfPrime {
             sum = sum + i;
         }
     }
-        System.out.println("The total sum of all Prime Number is "+sum);
+        System.out.println("The Total Sum of all Prime Number is "+sum);
     }
 
     public static Boolean isPrime(int num){
