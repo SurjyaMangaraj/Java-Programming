@@ -11,7 +11,7 @@ public class Sum1toN {
         for(int i=1;i<=n;i++){
             sum=sum+i;
         }
-        System.out.println("The total sum is "+sum);
+        System.out.println("The Total Sum is "+sum);
     }
 }
 
