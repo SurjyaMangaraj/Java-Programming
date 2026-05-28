@@ -11,7 +11,7 @@ public class CheckPrime {
         for( i=2;i<n;i++){
             Boolean isPrime=true;
             if(n%i==0)
-                System.out.println("Not a Prime Number.");
+                System.out.println("Not a Prime Number .");
             break;
 
         }
